@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+    <header class="headr-top">
+      <!-- ヘッダー -->
+      <a class="headr-logo" href="index.html"><img src="img/logo.png" ait="" height="25px" width="85px"></a>
+      <nav>
+        <!-- ナビ -->
+        <table class="header-nav">
+          <tr>
+            <th class="header-nav__table"> <a class="header-nav__table__font" href="index.html"> ホーム</a> </th>
+            <th class="header-nav__table"> <a class="header-nav__table__font" href="service.html"> 事業内容</a> </th>
+            <th class="header-nav__table"> <a class="header-nav__table__font" href="news.html"> ニュース</a></th>
+            <th class="header-nav__table"> <a class="header-nav__table__font" href="blog.html"> 社員ブログ</a></th>
+            <th class="header-nav__table"> <a class="header-nav__table__font" href="company.html"> 会社概要</a></th>
+            <th class="header-nav__table"> <a class="header-nav__table__font" href="recruit.html"> 採用情報</a></th>
+            <th class="header-nav__table"> <a class="header-nav__table__font" href="contact.html"> お問い合わせ</a></th>
+          </tr>
+        </table>
+        <ul class="nav" id="nav">
+          <li class="nfont1"><a href="index.html">ホーム</a></li>
+          <li class="nfont2"><a href="service.html">事業内容</a></li>
+          <li class="nfont2"><a href="news.html">ニュース</a></li>
+          <li class="nfont2"><a href="blog.html">社員ブログ</a></li>
+          <li class="nfont2"><a href="company.html">会社情報</a></li>
+          <li class="nfont2"><a href="recruit.html">採用情報</a></li>
+          <li class="nfont2"><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+        <div class="menu" id="menu">
+          <span class="menu__line--top"></span>
+          <span class="menu__line--middle"></span>
+          <span class="menu__line--bottom"></span>
+        </div>
+      </nav>
+    </header>
+  <main>
+    <article class="main-top__pic">
+      <section>
+        <p class="main-top__font1">お問い合わせ</p>
+      </section>
+    </article>
+    <article class="main2-box">
+      <section class="main2-box1">
+        <form action="contact.html" method="get">
+          <label for="company">会社名<small class="main2__font3">*</small></label>
+          <p><input class="main2__font1" type="text" name="company" id="company"></p>
+        </form>
+        <form action="contact.html" method="get">
+          <label for="name">お名前<small class="main2__font3">*</small></label>
+          <p ><input class="main2__font1" type="text" name="name" id="name"></p>
+        </form>
+        <form action="contact.html" method="get">
+          <label for="email">メールアドレス<small class="main2__font3">*</small></label>
+          <p><input class="main2__font1" type="email" name="email" id="email"></p>
+        </form>
+        <form action="contact.html" method="get">
+          <label for="textarea">お問い合わせ<small class="main2__font3">*</small></label>
+          <p><textarea class="main2__font1" name="textarea" cols="40" rows="10"></textarea></p>
+        </form>
+        <form class="main2__fontbox" action="contact.html" method="get">
+        <label for="contact"></label>
+        <input class="main2__font2" type="submit" value= "お申し込み" >
+        </form>
+      </section>
+    </article>
+    </main>
+    <footer class="footer__box">
+      <small class="footer-left__font">&copy;2020 TECH inc.</small>
+      <div class="footer-right__font1">
+        <div><a class="footer-right__font2" href="index.html">ホーム </a></div>
+        <div><a class="footer-right__font2" href="service.html">事業内容 </a></div>
+        <div><a class="footer-right__font2" href="news.html">ニュース </a></div>
+        <div><a class="footer-right__font2" href="blog.html">社員ブログ</a></div>
+        <div><a class="footer-right__font2" href="company.html">会社概要</a></div>
+        <div><a class="footer-right__font2" href="recruit.html">採用情報</a></div>
+        <div><a class="footer-right__font3" href="contact.html">お問い合わせ</a></div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
