@@ -165,6 +165,7 @@ a{
   display: grid;
   grid-template-rows: 50px 500px 20px;
   grid-template-columns: 1fr 6fr 1fr;
+  position: relative;
 }
 .main2-box1{
   grid-row: 2/3;
@@ -186,8 +187,16 @@ a{
   color: white;
   background-color: black;
   border: black;
-  cursor:pointer;
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bottom:70px;
+  cursor: pointer;
 }
+.main2__font4{
+  line-height: 32px;
+}
+
 
 
 
